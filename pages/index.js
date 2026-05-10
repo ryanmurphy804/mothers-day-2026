@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#FFF7ED]">
-      <div className="mx-auto max-w-[480px] px-4 pb-12 pt-8 sm:px-6">
+      <div className="mx-auto max-w-[480px] px-5 pb-12 pt-8 sm:px-6">
         {/* Header */}
         <div className="mb-6 text-center">
           <span
@@ -49,7 +49,7 @@ export default function Home() {
             Things We Can Do Together
           </h1>
           <p
-            className="anim-fade-up text-sm leading-relaxed text-[#7A6655]"
+            className="anim-fade-up text-[15px] leading-relaxed text-[#7A6655]"
             style={{ animationDelay: "0.2s" }}
           >
             A little list of family adventures, shows, games, day trips, and

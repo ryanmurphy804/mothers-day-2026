@@ -29,27 +29,27 @@ export default function ActivityCard({ event }) {
       <div className="min-w-0 flex-1">
         {/* Date + category row */}
         <div className="mb-1.5 flex items-center justify-between gap-2">
-          <span className="inline-block rounded-md bg-[#FED7AA]/40 px-2 py-0.5 text-xs font-medium text-[#92400e]">
+          <span className="inline-block rounded-md bg-[#FED7AA]/40 px-2 py-0.5 text-[13px] font-medium text-[#92400e]">
             {formatDate(event.date)}
           </span>
-          <span className="shrink-0 text-[11px] font-medium tracking-wide text-[#D97706]">
+          <span className="shrink-0 text-xs font-medium tracking-wide text-[#D97706]">
             {event.category}
           </span>
         </div>
 
         {/* Title */}
-        <h3 className="mb-0.5 text-[15px] font-semibold leading-snug text-[#2F241D]">
+        <h3 className="mb-0.5 text-base font-semibold leading-snug text-[#2F241D]">
           {event.title}
         </h3>
 
         {/* Location */}
-        <p className="mb-1.5 text-xs text-[#7A6655]">
+        <p className="mb-1.5 text-[13px] text-[#7A6655]">
           {event.locationName}
           {event.city ? ` · ${event.city}` : ""}
         </p>
 
         {/* Description */}
-        <p className="text-xs leading-relaxed text-[#7A6655]">
+        <p className="text-[13px] leading-relaxed text-[#7A6655]">
           {event.shortDescription}
         </p>
 
@@ -59,10 +59,10 @@ export default function ActivityCard({ event }) {
             href={event.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-[#D97706] transition active:opacity-70"
+            className="mt-2 inline-flex items-center gap-1 text-[13px] font-medium text-[#D97706] transition active:opacity-70"
           >
             {linkLabel}
-            <ExternalLink className="h-3 w-3" />
+            <ExternalLink className="h-3.5 w-3.5" />
           </a>
         )}
       </div>

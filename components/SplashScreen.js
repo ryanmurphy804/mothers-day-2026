@@ -32,7 +32,7 @@ export default function SplashScreen({ onOpen }) {
           </h1>
 
           <p
-            className="anim-fade-up mb-8 max-w-sm text-sm leading-relaxed text-[#7A6655] sm:text-base"
+            className="anim-fade-up mb-8 max-w-sm text-base leading-relaxed text-[#7A6655] sm:text-[17px]"
             style={{ animationDelay: "0.5s" }}
           >
             I know your favorite thing is when we all spend time together, so I
