@@ -36,21 +36,32 @@ export default function Home() {
       <div className="mx-auto max-w-[480px] px-4 pb-12 pt-8 sm:px-6">
         {/* Header */}
         <div className="mb-6 text-center">
-          <span className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-white/70 px-3 py-1 text-xs font-medium text-[#D97706] backdrop-blur-sm">
+          <span
+            className="anim-fade-down mb-3 inline-flex items-center gap-1.5 rounded-full bg-white/70 px-3 py-1 text-xs font-medium text-[#D97706] backdrop-blur-sm"
+          >
             <Heart className="h-3 w-3" fill="currentColor" />
             Made for Mom
           </span>
-          <h1 className="mb-2 text-2xl font-bold tracking-tight text-[#2F241D] sm:text-3xl">
+          <h1
+            className="anim-fade-up mb-2 text-2xl font-bold tracking-tight text-[#2F241D] sm:text-3xl"
+            style={{ animationDelay: "0.1s" }}
+          >
             Things We Can Do Together
           </h1>
-          <p className="text-sm leading-relaxed text-[#7A6655]">
+          <p
+            className="anim-fade-up text-sm leading-relaxed text-[#7A6655]"
+            style={{ animationDelay: "0.2s" }}
+          >
             A little list of family adventures, shows, games, day trips, and
             easy nights out around Richmond and DC.
           </p>
         </div>
 
         {/* Segmented control */}
-        <div className="mb-4">
+        <div
+          className="anim-fade-up mb-4"
+          style={{ animationDelay: "0.3s" }}
+        >
           <SegmentedControl
             value={filter}
             onChange={setFilter}
@@ -60,13 +71,22 @@ export default function Home() {
 
         {/* Cards */}
         <div className="divide-y divide-[#F3D6B6]/60">
-          {visibleEvents.map((event) => (
-            <ActivityCard key={event.id} event={event} />
+          {visibleEvents.map((event, i) => (
+            <div
+              key={event.id}
+              className="anim-fade-up"
+              style={{ animationDelay: `${0.35 + i * 0.06}s` }}
+            >
+              <ActivityCard event={event} />
+            </div>
           ))}
         </div>
 
         {/* Footer */}
-        <div className="mt-10 text-center">
+        <div
+          className="anim-fade-in mt-10 text-center"
+          style={{ animationDelay: "1s" }}
+        >
           <p className="text-sm text-[#7A6655]">
             Pick your favorites and we&apos;ll make a plan.
           </p>

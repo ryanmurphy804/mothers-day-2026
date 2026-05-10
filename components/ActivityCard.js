@@ -27,13 +27,13 @@ export default function ActivityCard({ event }) {
       />
 
       <div className="min-w-0 flex-1">
-        {/* Category + date */}
-        <div className="mb-1 flex items-center gap-2">
-          <span className="text-xs font-medium text-[#D97706]">
-            {event.category}
-          </span>
-          <span className="text-xs text-[#7A6655]">
+        {/* Date + category row */}
+        <div className="mb-1.5 flex items-center justify-between gap-2">
+          <span className="inline-block rounded-md bg-[#FED7AA]/40 px-2 py-0.5 text-xs font-medium text-[#92400e]">
             {formatDate(event.date)}
+          </span>
+          <span className="shrink-0 text-[11px] font-medium tracking-wide text-[#D97706]">
+            {event.category}
           </span>
         </div>
 

@@ -21,7 +21,7 @@ export default function ActivityImage({ src, alt, category }) {
   if (!src || failed) {
     return (
       <div
-        className={`flex h-20 w-20 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br ${gradient}`}
+        className={`flex h-28 w-24 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br ${gradient}`}
       >
         <span className="text-[10px] font-medium text-white/80">{category}</span>
       </div>
@@ -32,7 +32,7 @@ export default function ActivityImage({ src, alt, category }) {
     <img
       src={src}
       alt={alt}
-      className="h-20 w-20 shrink-0 rounded-xl object-cover"
+      className="h-28 w-24 shrink-0 rounded-xl object-cover"
       onError={() => setFailed(true)}
       loading="lazy"
     />

@@ -359,4 +359,76 @@ export const events = [
     shortDescription: "A laid-back Thursday evening garden concert at Lewis Ginter featuring Portico.",
     link: "https://www.lewisginter.org/visit/events/calendar/",
   },
+  {
+    "id": "richmond-dragon-boat-festival",
+    "title": "Richmond International Dragon Boat Festival",
+    "category": "Outdoor",
+    "type": "scheduled",
+    "locationName": "James River / Robious Landing Area",
+    "city": "Richmond",
+    "date": "2026-08-01T07:00:00",
+    "image": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=400&h=300&fit=crop",
+    "shortDescription": "Watch dragon boat teams race on the James River in a high-energy outdoor festival with competition, culture, and community atmosphere.",
+    "link": "https://gwndragonboat.com/festivals/richmond-international-dragon-boat-festival/"
+  },
+  {
+    "id": "hanover-tomato-festival",
+    "title": "Hanover Tomato Festival",
+    "category": "Festival",
+    "type": "scheduled",
+    "locationName": "Pole Green Park",
+    "city": "Mechanicsville",
+    "date": "2026-07-10T17:00:00",
+    "image": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=400&h=300&fit=crop",
+    "shortDescription": "A classic local summer festival with Hanover tomatoes, food, vendors, music, and relaxed family-friendly energy.",
+    "link": "https://www.hanovercounty.gov/1019/Hanover-Tomato-Festival"
+  },
+  {
+    "id": "carytown-watermelon-festival",
+    "title": "Carytown Watermelon Festival",
+    "category": "Festival",
+    "type": "scheduled",
+    "locationName": "Carytown",
+    "city": "Richmond",
+    "date": "2026-08-09T10:00:00",
+    "image": "https://images.unsplash.com/photo-1563114773-84221bd62daa?w=400&h=300&fit=crop",
+    "shortDescription": "One of Richmond's biggest summer traditions, with watermelon, food vendors, music, shopping, and a full Carytown street-festival feel.",
+    "link": "https://www.carytownwatermelonfestival.com/"
+  },
+  {
+    "id": "richmond-jazz-music-festival",
+    "title": "Richmond Jazz & Music Festival",
+    "category": "Music",
+    "type": "scheduled",
+    "locationName": "Maymont",
+    "city": "Richmond",
+    "date": "2026-08-08T12:00:00",
+    "image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=400&h=300&fit=crop",
+    "shortDescription": "A two-day outdoor music festival at Maymont with a polished, parent-friendly festival setting.",
+    "link": "https://www.richmondjazzandmusicfestival.com/"
+  },
+  {
+    "id": "iron-blossom-music-festival",
+    "title": "Iron Blossom Music Festival",
+    "category": "Music",
+    "type": "scheduled",
+    "locationName": "Midtown Green",
+    "city": "Richmond",
+    "date": "2026-09-19T16:00:00",
+    "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=300&fit=crop",
+    "shortDescription": "A major two-day Richmond music festival headlined by Jack White and LCD Soundsystem, with Portugal. The Man also on the lineup.",
+    "link": "https://www.ironblossomfestival.com/"
+  },
+  {
+    "id": "eddie-griffin-funny-bone",
+    "title": "Eddie Griffin at Funny Bone",
+    "category": "Comedy",
+    "type": "scheduled",
+    "locationName": "Richmond Funny Bone",
+    "city": "Richmond",
+    "date": "2026-06-12T19:00:00",
+    "image": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?w=400&h=300&fit=crop",
+    "shortDescription": "A classic comedy-club night with Eddie Griffin at Richmond Funny Bone.",
+    "link": "https://richmond.funnybone.com/event/eddie-griffin-4/richmond-funny-bone-comedy-club/"
+  }
 ];
